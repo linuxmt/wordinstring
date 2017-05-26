@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
-
 def wordinstring(string):
     global word
     strlen = len(string)
@@ -16,5 +15,4 @@ def wordinstring(string):
                 wordlist.append(word)
                 word = ""
     return wordlist
-    
-print wordinstring("  test   deneme   python ")
+print wordinstring("test deneme python")
